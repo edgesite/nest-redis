@@ -1,0 +1,19 @@
+{
+  "name": "nest-redis",
+  "version": "0.0.1",
+  "description": "The IORedis module for Nest",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "@nestjs/common": "^8.0.11",
+    "ioredis": "^4.27.11"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^8.0.11",
+    "@types/ioredis": "^4.27.6",
+    "ioredis": "^4.27.11"
+  }
+}
