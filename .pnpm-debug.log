@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: inint",
+      "code": "ENOENT",
+      "stack": "Error: not found: inint\n    at getNotFoundError (/opt/homebrew/Cellar/pnpm/6.16.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:47780:51)\n    at Function.whichSync [as sync] (/opt/homebrew/Cellar/pnpm/6.16.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:47857:13)\n    at getCommandAbsolutePathSync (/opt/homebrew/Cellar/pnpm/6.16.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:49422:44)\n    at Object.default_1 [as default] (/opt/homebrew/Cellar/pnpm/6.16.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:49431:32)\n    at /opt/homebrew/Cellar/pnpm/6.16.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:129761:34"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "/Users/apple/workspace",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: inint",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: inint\n    at getNotFoundError (/opt/homebrew/Cellar/pnpm/6.16.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:47780:51)\n    at Function.whichSync [as sync] (/opt/homebrew/Cellar/pnpm/6.16.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:47857:13)\n    at getCommandAbsolutePathSync (/opt/homebrew/Cellar/pnpm/6.16.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:49422:44)\n    at Object.default_1 [as default] (/opt/homebrew/Cellar/pnpm/6.16.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:49431:32)\n    at /opt/homebrew/Cellar/pnpm/6.16.1/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:129761:34"
+    }
+  }
+}
